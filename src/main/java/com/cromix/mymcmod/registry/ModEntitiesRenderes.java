@@ -27,7 +27,7 @@ public class ModEntitiesRenderes implements ClientModInitializer
     public static void register()
     {
         // Cube Entity
-        FabricDefaultAttributeRegistry.register(CUBE, CubeEntity.createMobAttributes());
+        FabricDefaultAttributeRegistry.register(CUBE, CubeEntity.createCubeEntityAttributes());
         EntityRendererRegistry.INSTANCE.register(CUBE, (dispatcher, context) -> new CubeEntityRenderer(dispatcher));
     }
 
