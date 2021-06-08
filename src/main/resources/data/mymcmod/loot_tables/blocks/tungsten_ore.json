@@ -1,0 +1,14 @@
+{
+  "type": "mymcmod:tungsten_ore",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mymcmod:tungsten_ore"
+        }
+      ]
+    }
+  ]
+}
